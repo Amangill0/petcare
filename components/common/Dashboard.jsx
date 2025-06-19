@@ -26,7 +26,7 @@ const Dashboard = ({ children }) => {
   }, [open]);
   return (
     <div className="bg-[#F5F6FA] h-screen  overflow-hidden">
-      <div className="  flex  justify-between items-center w-full mx-auto bg-white py-3.5 px-5 shadow-[0px_1px_4px_0px_rgba(21,34,50,0.08)] ">
+      <div className="  flex  justify-between items-center w-full mx-auto bg-white py-3 px-5 shadow-[0px_1px_4px_0px_rgba(21,34,50,0.08)] ">
         <div className=" flex w-[60%] items-center ">
           <Link
             className=" text-[#323232] mont md:text-2xl sm:text-xl max-sm:text-lg lg:text-[32px] opacity-[0.9]    "
@@ -35,7 +35,7 @@ const Dashboard = ({ children }) => {
             Pet
             <span className=" italic  text-[#FEAE11] font-semibold ">Care</span>
           </Link>
-          <div className=" max-md:hidden flex max-w-[437px] max-md:ml-10   md:ml-20 lg:ml-35 w-full  lg:h-8  px-1.5 py-1.5 rounded-lg border border-[rgba(90,96,127,0.20)] items-center  ">
+          <div className=" max-md:hidden flex max-w-[437px] max-md:ml-8   md:ml-20 lg:ml-35 w-full  lg:h-8  px-1.5 py-1.5 rounded-lg border border-[rgba(90,96,127,0.20)] items-center  ">
             <SearchIcon />
             <input
               className=" items-center pl-1 border-none mont w-full text-sm text-[#5A607F] flex outline-none "
